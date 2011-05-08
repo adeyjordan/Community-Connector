@@ -1,0 +1,20 @@
+adam@saturn:/var/www$ cd Community-Connector
+adam@saturn:/var/www/Community-Connector$ git init
+Initialized empty Git repository in /var/www/Community-Connector/.git/
+adam@saturn:/var/www/Community-Connector$ touch README
+adam@saturn:/var/www/Community-Connector$ git add README
+adam@saturn:/var/www/Community-Connector$ git commit -m 'first commit'
+[master (root-commit) 6ff9679] first commit
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README
+adam@saturn:/var/www/Community-Connector$ git remote add origin git@github.com:adeyjordan/Community-Connector.git
+adam@saturn:/var/www/Community-Connector$ git push -u origin master
+Enter passphrase for key '/home/adam/.ssh/id_rsa': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 209 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:adeyjordan/Community-Connector.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+adam@saturn:/var/www/Community-Connector$ 
+
